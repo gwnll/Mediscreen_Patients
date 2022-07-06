@@ -1,0 +1,10 @@
+INSERT INTO patients (id, lastname, firstname, gender, phone, address, birthdate) VALUES (nextval('patient_id_seq'), 'Ferguson', 'Lucas', 'MALE', '387-866-1399', '2 Warren Street', '22-06-1968');
+INSERT INTO patients (id, lastname, firstname, gender, phone, address, birthdate) VALUES (nextval('patient_id_seq'), 'Rees', 'Pippa', 'FEMALE', '628-423-0993', '745 West Valley Farms Drive', '27-09-1952');
+INSERT INTO patients (id, lastname, firstname, gender, phone, address, birthdate) VALUES (nextval('patient_id_seq'), 'Arnold', 'Edward', 'MALE', '123-727-2779', '599 East Garden Ave', '11-11-1952');
+INSERT INTO patients (id, lastname, firstname, gender, phone, address, birthdate) VALUES (nextval('patient_id_seq'), 'Sharp', 'Anthony', 'MALE', '451-761-8383', '894 Hall Street', '26-11-1946');
+INSERT INTO patients (id, lastname, firstname, gender, phone, address, birthdate) VALUES (nextval('patient_id_seq'), 'Ince', 'Wendy', 'FEMALE', '802-911-9975', '4 Southampton Road', '29-06-1958');
+INSERT INTO patients (id, lastname, firstname, gender, phone, address, birthdate) VALUES (nextval('patient_id_seq'), 'Ross', 'Tracey', 'FEMALE', '131-396-5049', '40 Sulphur Springs Dr', '07-12-1949');
+INSERT INTO patients (id, lastname, firstname, gender, phone, address, birthdate) VALUES (nextval('patient_id_seq'), 'Wilson', 'Claire', 'FEMALE', '300-452-1091', '12 Cobblestone St', '31-12-1966');
+INSERT INTO patients (id, lastname, firstname, gender, phone, address, birthdate) VALUES (nextval('patient_id_seq'), 'Buckland', 'Max', 'MALE', '833-534-0864', '193 Vale St', '24-06-1945');
+INSERT INTO patients (id, lastname, firstname, gender, phone, address, birthdate) VALUES (nextval('patient_id_seq'), 'Clark', 'Natalie', 'FEMALE', '241-467-9197', '12 Beechwood Road', '18-06-1964');
+INSERT INTO patients (id, lastname, firstname, gender, phone, address, birthdate) VALUES (nextval('patient_id_seq'), 'Bailey', 'Piers', 'MALE', '747-815-0557', '1202 Bumble Dr', '28-06-1959');
