@@ -30,3 +30,6 @@ Mediscreen_Patients is a REST micro-service connected to a Postgre database. The
 
 ### API REST Endpoints
 ![API REST Endpoints](https://github.com/gwnll/Mediscreen_Patients/blob/main/patient-controller.jpg)
+
+### Tests - JaCoCo
+![Tests - JaCoCo](https://github.com/gwnll/Mediscreen_Patients/blob/main/jacoco-patients.jpg)
