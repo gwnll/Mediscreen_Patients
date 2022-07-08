@@ -27,6 +27,14 @@ public class PatientController {
         }
     }
 
+    @Operation(summary = "Update a patient", responses = {
+            @ApiResponse(responseCode = "200", description = "Update successful"),
+            @ApiResponse(responseCode = "404", description = "Not found / An error occurred")})
+    @PostMapping("/patient/updatePatient")
+    public void updatePatient(@RequestBody @Valid Patient patient) {
+        patientService.updatePatient(patient);
+    }
+
     @Operation(summary = "Get a patient by id", responses = {
             @ApiResponse(responseCode = "200", description = "Patient successfully retrieved"),
             @ApiResponse(responseCode = "404", description = "Not found - The patient was not found")})
@@ -41,14 +49,6 @@ public class PatientController {
     @GetMapping("/patient/list")
     public Iterable<Patient> list() {
         return patientService.getAllPatients();
-    }
-
-    @Operation(summary = "Update a patient", responses = {
-            @ApiResponse(responseCode = "200", description = "Update successful"),
-            @ApiResponse(responseCode = "404", description = "Not found / An error occurred")})
-    @PostMapping("/patient/updatePatient")
-    public void updatePatient(@RequestBody @Valid Patient patient) {
-            patientService.updatePatient(patient);
     }
 
     @Operation(summary = "Delete a patient", responses = {
