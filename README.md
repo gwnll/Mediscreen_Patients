@@ -21,7 +21,7 @@ Mediscreen_Patients is a REST micro-service connected to a Postgre database. The
 - MongoDB
 
 ### Deployment with Docker
-1) Build the jar
+1) Build the jar (you can use ``mvn install``)
 2) Create the image of the patients micro-service with ``build -t mediscreen-patients``
 3) Once the images of the other micro-services are created, you can use ``docker compose up`` in the front app.
 
